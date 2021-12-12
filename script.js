@@ -1,4 +1,4 @@
-const url = `http://makeup-api.herokuapp.com/api/v1/products.json`;
+const url = `https://makeup-api.herokuapp.com/api/v1/products.json`;
 
 let prodType = [];
 let uniqueProdType;
