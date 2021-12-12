@@ -124,16 +124,16 @@ async function productSegregation() {
           </div>`;
       }
       //Product Description to be added in a seperate Product detail page
-      const prodDescription = document.querySelector(".product-description");
-      console.log(prodDescription);
-      prodDescription.addEventListener("click", function () {
-        const description = document.createElement("div");
-        description.innerHTML = `
-      <div class="modal-dialog">
-        ${prod.description}
-      </div>`;
-        prodDescription.appendChild(description);
-      });
+      // const prodDescription = document.querySelector(".product-description");
+      // console.log(prodDescription);
+      // prodDescription.addEventListener("click", function () {
+      //   const description = document.createElement("div");
+      //   description.innerHTML = `
+      // <div class="modal-dialog">
+      //   ${prod.description}
+      // </div>`;
+      //   prodDescription.appendChild(description);
+      // });
     });
   });
 }
